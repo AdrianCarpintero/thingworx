@@ -1,0 +1,27 @@
+{
+	"PlatformSettingsConfig": {
+		"AdministratorUserSettings": {
+			"InitialPassword": ""
+		},
+		"ContentTypeSettings": {
+			"supportedMediaEntityContentTypes": [
+				"image/svg+xml",
+				"image/png",
+				"image/gif",
+				"image/bmp",
+				"image/jpeg",
+				"application/pdf",
+				"image/vnd.microsoft.icon"
+			]
+		}
+	},
+	"PersistenceProviderPackageConfigs": {
+		"PostgresPersistenceProviderPackage": {
+			"ConnectionInformation": {
+				"jdbcUrl": "jdbc:postgresql://localhost:5432/thingworx",
+				"password": "password",
+				"username": "twadmin"
+			}
+		}
+	}
+}

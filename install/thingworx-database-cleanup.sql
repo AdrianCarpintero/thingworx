@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS :"database";
+
+DROP TABLESPACE IF EXISTS :"tablespace";
